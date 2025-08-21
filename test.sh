@@ -15,7 +15,3 @@ echo "$HTML_CONTENT" > "$TARGET_DIR/index.html"
 zip -r "$TARGET_DIR/$ARCHIVE_NAME" "$TARGET_DIR/index.html"
 
 echo "Archive created at $TARGET_DIR/$ARCHIVE_NAME"
-while true; do
-  echo "Still running at $(date)"
-  sleep 10
-done

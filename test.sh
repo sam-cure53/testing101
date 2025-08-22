@@ -8,7 +8,7 @@ HTML_CONTENT="alert(1)"
 mkdir -p "$TARGET_DIR"
 
 # Create the index.html file
-echo "$HTML_CONTENT" > "$TARGET_DIR/vendors-node_modules_graphql_type_validate_js.7af4b4e931d37480a107.j"
+echo "$HTML_CONTENT" > "$TARGET_DIR/vendors-node_modules_graphql_type_validate_js.7af4b4e931d37480a107.js"
 
 # Create the ZIP archive
 
